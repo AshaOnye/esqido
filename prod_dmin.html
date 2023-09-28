@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Admin</title>
+</head>
+<body>
+    <form method="POST" action="http://159.65.21.42:9000/create/product"  enctype="multipart/formdata"> 
+        <input type="" placeholder="Product Name" name="name"/>
+        <input type="" placeholder="Product Category" name="category"/>
+        <input type="" placeholder="Price" name="price"/>
+        <input type="" placeholder="Quantity" name="quantity"/>
+         <input type="file" name="image"/>
+          <input type="" placeholder="Description" name="description"/>
+        <div id="msg"></div>
+        <button id="register">Register</button>
+      </form>
+
+
+      <script src="jquery-3.6.1.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
